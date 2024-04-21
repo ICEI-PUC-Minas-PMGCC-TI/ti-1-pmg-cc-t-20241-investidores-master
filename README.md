@@ -1,6 +1,6 @@
 # Nome do projeto
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Muitas corretoras de investimento priorizam o lucro imediato sobre o bem-estar financeiro dos investidores, oferecendo recomendações tendenciosas e produtos financeiros que não se alinham com o perfil de risco e objetivos dos clientes. Isso resulta em alocação ineficiente de recursos e prejuízos significativos. Para resolver esse problema, é crucial uma solução que forneça recomendações imparciais e personalizadas, considerando os objetivos financeiros e tolerância ao risco dos investidores. Uma plataforma de investimentos automatizada pode desempenhar esse papel, oferecendo alocação de portfólio otimizada e transparente, livre de conflitos de interesse
 
 ## Alunos integrantes da equipe
 
