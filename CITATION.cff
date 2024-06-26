@@ -5,12 +5,12 @@ title: InvestGO
 authors:
   - family-names: Henriques Parreiras
     given-names: André
-  - family-names: Felipe Duarte
-    given-names: Luiz
+  - family-names: Duarte
+    given-names: Luiz Felipe
   - family-names: Martins Parreiras
     given-names: Mateus
-  - family-names: Gabriel Amorim Soares
-    given-names: Pedro
+  - family-names: Amorim Soares
+    given-names: Pedro Gabriel
   - family-names: Leite Setragni
     given-names: Vitor
   - name-suffix: Professor
@@ -19,11 +19,10 @@ authors:
     given-names: Hayala
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Alberto Marques Pietrobon
-    given-names: Carlos
+    family-names: Marques Pietrobon
+    given-names: Carlos Alberto
 keywords:
   - Investimentos
-  - Investidores
   - Corretora
 repository-code: https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20241-investidores-master
 license: CC-BY-4.0
