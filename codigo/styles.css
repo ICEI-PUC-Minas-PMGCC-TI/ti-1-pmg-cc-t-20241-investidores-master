@@ -16,7 +16,8 @@
 }
 
 body {
-  padding-bottom: 200px; /* Height of the footer */
+  padding-bottom: 200px;
+  /* Height of the footer */
 }
 
 .darker-gray {
@@ -41,8 +42,26 @@ body {
   align-items: center;
   height: 100px;
 }
+
 .ilust {
   display: flex;
   justify-content: flex-end;
 }
 
+.colunaindex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#investir {
+  border: 0;
+  padding: 1em;
+  background-color: #FFB000;
+  font-weight: 700;
+}
+#investir:hover {
+  padding: 1.2em;
+  transition: .2s;
+}
