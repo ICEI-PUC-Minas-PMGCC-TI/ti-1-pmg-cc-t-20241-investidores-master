@@ -60,50 +60,13 @@
 
     <!-- That yellow sexy bar. -->
     <nav class="navbar border-bottom border-body" id="custom-nav">
-      <h1>Posição à mercado</h1>
+      <h1>Posição à Mercado</h1>
     </nav>
     <br />
     <br />
 
-    <!-- Perfil de investidor -->
+    <!-- Posição à mercado -->
     <div class="container">
-      <h2>Recomendação de investimentos</h2>
-      <br />
-      <h4 id="investorProfile">Indefinido</h4>
-      <p>
-        Você pode alterar seu perfil de investidor a qualquer momento clicando
-        no botão abaixo.
-      </p>
-      <a href="teste_perfil_investidor.html" class="btn btn-primary darker-gray"
-        >Alterar perfil</a
-      >
-    </div>
-
-    <br />
-    <br />
-
-    <!-- Recomendação de investimentos -->
-    <div class="container" id="recommendations">
-      <h2>Alocação recomendada por categoria de investimento</h2>
-      <table class="table" id="allocationTable">
-        <thead>
-          <tr>
-            <th>Categoria</th>
-            <th>Alocação (% total do portfólio)</th>
-          </tr>
-        </thead>
-        <tbody id="allocationBody">
-          <!-- Allocation data will be filled in by JavaScript -->
-        </tbody>
-      </table>
-    </div>
-
-    <br />
-    <br />
-
-    <!-- Posição à mercado: Work in Progress-->
-    <!-- <div class="container">
-      <h2>Posição à mercado</h2>
       <p>Acompanhe a posição à mercado dos seus investimentos.</p>
       <table class="table">
         <thead>
@@ -115,17 +78,20 @@
           </tr>
         </thead>
         <tbody id="marketPosition">
+          <!-- Market position will be dynamically inserted here -->
         </tbody>
       </table>
-    </div> -->
+    </div>
 
     <br />
     <br />
 
-    <!-- Footer -->
     <footer class="footer bg-light fixed-bottom">
       <div class="container text-center">
-        
+        <span class="text-muted"
+          >Não fornecemos aconselhamento financeiro, apenas correspondência
+          automática entre investidores e produtos de investimento.</span
+        >
       </div>
       <div class="container text-center">
         <h5>InvestGo</h5>
@@ -134,8 +100,11 @@
       </div>
     </footer>
 
-    <script src="../bootstrap/js/bootstrap.js"></script>
-    <script src="../scripts/recommendations.js"></script>
+    <script src="../scripts/my_investments.js"></script>
     <script src="../scripts/logout.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
   </body>
 </html>
+    <script src="../scripts/produtos.js"></script>
+    <script src="../scripts/logout.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
