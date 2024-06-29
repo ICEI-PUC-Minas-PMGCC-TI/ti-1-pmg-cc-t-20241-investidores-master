@@ -41,3 +41,8 @@ body {
   align-items: center;
   height: 100px;
 }
+.ilust {
+  display: flex;
+  justify-content: flex-end;
+}
+
