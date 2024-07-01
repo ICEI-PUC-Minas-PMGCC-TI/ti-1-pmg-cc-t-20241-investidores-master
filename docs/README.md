@@ -20,112 +20,140 @@ Esta seção traz explicações breves sobre o conjunto de artefatos que precisa
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-**Links Úteis**:
-
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Um dos principais problemas decorrentes dessa prática é a oferta de produtos financeiros que não necessariamente se alinham com o perfil de risco e os objetivos de investimento dos clientes. Essas recomendações tendenciosas frequentemente incluem a promoção de fundos de investimento com gestão duvidosa ou taxas excessivamente altas, bem como outros instrumentos financeiros que não oferecem o melhor retorno ajustado ao risco para os investidores. Isso resulta em uma alocação de recursos ineficiente e, em muitos casos, em prejuízos financeiros significativos para os clientes. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
-
-**Links Úteis**:
-
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Diante desse cenário, o objetivo do projeto é desenvolver uma solução que ofereça aos investidores acesso a recomendações imparciais e personalizadas, levando em consideração seus objetivos financeiros, tolerância ao risco e situação financeira atual.  
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-**Links Úteis**:
-
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A falta de transparência e de orientação imparcial por parte das corretoras pode levar os investidores a tomarem decisões baseadas em informações incompletas ou tendenciosas, aumentando ainda mais o risco de escolhas financeiras inadequadas. Assim, uma plataforma de investimentos automatizada pode desempenhar um papel fundamental na resolução desse problema, fornecendo uma alocação de portfólio teoricamente otimizada e transparente, livre de conflitos de interesse e alinhada com os interesses dos investidores. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
-
-**Links Úteis**:
-
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo desta solução são os investidores em busca de orientação financeira imparcial e personalizada, que buscam maximizar seus retornos financeiros de acordo com seus objetivos e tolerância ao risco e investidores novatos que estão começando a aprender sobre o mundo dos investimentos. 
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+Eu como persona...    Quero/preciso...               Para... 
 
-**Links Úteis**:
+Arthur                Informações confiáveis         Conseguir investir por mim mesmo no futuro 
 
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+Arthur                 Local de gestão                Para ter de maneira clara se estou atingindo minhas metas 
+
+Walter                 Facil acesso                   Para conseguir utilizar a plataforma em ajuda 
+
+Cristina               Sistema de autenticação       Confiar meu dinheiro na plataforma 
+
+Cristina               Boas recomendações            Para aumentar meu patrimônio 
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Arthur
+“Me chamo Arthur, tenho 23 anos, sou estudante e trabalho como estagiário e recebo um salário
+mínimo por mês. Me juntei a InvestGO após um amigo próximo me recomendar o site alegando ser
+um ótimo lugar para adquirir informações e conhecimento de qualidade. Meu objetivo como usuário
+da InvestGO é conquistar minha liberdade financeira construindo uma vida financeira sólida e
+saudável a longo prazo que me permita ter uma certa flexibilidade na vida.”
 
-**Links Úteis**:
+Walter
+“Me chamo Walter, tenho 65 anos e sou aposentado. Meu hobby favorito é cuidar das minhas
+plantas e, agora que tenho muito tempo livre, estou fazendo isso a maior parte do dia. Conheci a
+InvestGO por meio de uma notícia que li no jornal, que dizia ser uma das melhores plataformas para
+adquirir informações e conhecimento sobre investimentos. Meu objetivo como usuário da InvestGO
+é deixar uma quantia significativa para meus filhos e netos quando eu partir, não renunciando a uma
+renda passiva para pagar meus remédios e futuros médicos.”
 
-- [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-- [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+Cristina
+“Me chamo Cristina, tenho 29 anos, sou confeiteira e possuo uma dívida com o banco. Tive contanto
+com o InvestGO, através da internet quando estava pesquisando sobre como ter uma renda maior.
+Meu objetivo como usuário da InvestGO é pagar completamente minha dívida e crescer meu negócio
+e comprar uma loja física para os meus produtos.”
 
 ## Requisitos
 
-Os requisitos de um projeto são classificados em dois grupos:
+Requisitos Funcionais  
 
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
+ RF-001 Perfil do usuário: (Alta) 
 
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+O sistema deve permitir que os usuários criem e personalizem seus perfis, incluindo informações como idade, ocupação, objetivos financeiros e tolerância ao risco.  
 
-**Links Úteis**:
+RF-002 Avaliação do perfil de investimento: (Alta) 
 
-- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-- [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+O sistema deve realizar uma avaliação abrangente do perfil de investimento de cada usuário, levando em consideração fatores como idade, renda, objetivos financeiros e aversão ao risco.  
 
+RF-003 Recomendações personalizadas: (Alta) 
+
+Com base na avaliação do perfil do usuário, o sistema deve gerar recomendações de investimento personalizadas, alinhadas com os objetivos financeiros e a tolerância ao risco de cada usuário.  
+
+RF-004 Acesso a informações e conhecimento: (Baixa) 
+
+A plataforma deve fornecer acesso a informações e conhecimentos relevantes sobre investimentos, adequados ao nível de compreensão e experiência de cada usuário.  
+
+RF-005 Monitoramento e atualização de investimentos: (Média) 
+
+Os usuários devem poder monitorar o desempenho de seus investimentos e receber atualizações regulares sobre suas carteiras, permitindo ajustes conforme necessário.  
+
+RF-006 Transparência e imparcialidade: (Alta) 
+
+O sistema deve garantir transparência e imparcialidade em suas recomendações, evitando conflitos de interesse e priorizando os interesses financeiros dos usuários.  
+
+RF-007 Suporte ao cliente: (Alta) 
+
+Deve haver um canal de suporte ao cliente disponível para esclarecer dúvidas, fornecer assistência técnica e orientação sobre o uso da plataforma.  
+
+Requisitos Não Funcionais  
+
+RNF-001 Segurança de dados: (Alta) 
+
+Todos os dados dos usuários devem ser armazenados de forma segura e protegidos contra acesso não autorizado, seguindo as melhores práticas de segurança da informação.  
+
+RNF-002 Desempenho escalável: (Média) 
+
+A plataforma deve ser capaz de lidar com um aumento significativo no número de usuários sem comprometer o desempenho, garantindo uma experiência fluida mesmo em momentos de alta demanda.  
+
+RNF-003 Disponibilidade e confiabilidade: (Alta) 
+
+A plataforma deve ter uma alta disponibilidade, com tempos de inatividade mínimos planejados para manutenção. Além disso, deve ser confiável, minimizando falhas e erros inesperados.  
+
+RNF-004 Compatibilidade multiplataforma: (Média) 
+
+A solução deve ser compatível com uma variedade de dispositivos e navegadores web, garantindo uma experiência consistente e adequada em diferentes ambientes de uso.  
+
+RNF-005 Usabilidade e acessibilidade: (Média) 
+
+A interface do usuário deve ser intuitiva e de fácil utilização, com ênfase na acessibilidade para usuários com necessidades especiais, seguindo as diretrizes de acessibilidade da web.  
+
+RNF-006 Manutenibilidade e extensibilidade: (Média) 
+
+O código-fonte e a arquitetura da plataforma devem ser bem documentados e modularizados, facilitando a manutenção e permitindo futuras extensões e atualizações.  
+
+RNF-007 Performance do sistema: (Média) 
+
+A resposta do sistema às solicitações dos usuários deve ser rápida e eficiente, minimizando o tempo de carregamento de páginas e atrasos nas operações.  
+
+RNF-008 Compliance regulatório: (Alta) 
+
+A solução deve estar em conformidade com todas as regulamentações e leis pertinentes relacionadas à proteção de dados, segurança financeira e práticas comerciais justas.  
+
+RNF-009 Integração com sistemas externos: (Alta) 
+
+O sistema deve ser capaz de integrar-se facilmente com sistemas externos, como APIs de instituições financeiras e ferramentas de análise de mercado, para enriquecer suas funcionalidades e dados disponíveis.  
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-**Links Úteis**:
-
-- [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-- [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-- [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+https://lucid.app/lucidchart/153a95ce-d81b-4bba-b12b-5feb6066aeff/edit?page=0_0&invitationId=inv_9403e55b-cd4a-42cc-af68-914551320137
 
 ## Wireframes
 
-Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
-
-**Links Úteis**:
-
-- [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-- [Figma](https://www.figma.com/)
-- [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-- [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+https://lucid.app/lucidchart/82d82a48-2a80-4e9b-853e-e5b4abaaf50b/edit?viewport_loc=502%2C-10%2C681%2C743%2CI5_Pk22Ve1Oe&invitationId=inv_b5ed8806-5647-4d9f-bbe9-7f22e7ec6090 
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+ Scrum Master: Pedro Gabriel Amorim Soares 
 
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Product owner: André Henriques Parreiras 
 
-**Links Úteis**:
+Desenvolvedores: André Henriques, Mateus Martins, Pedro Gabriel Amorin, Vitor Leite 
 
-- [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-- [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-- [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-- [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Documentações: Mateus Martins Parreiras e Vitor Leite Setragni 
