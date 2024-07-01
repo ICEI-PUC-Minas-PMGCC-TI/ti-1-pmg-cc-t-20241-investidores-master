@@ -1075,3 +1075,1082 @@
 </body>
 
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="assets/images/favicon.png" rel="icon">
+  <title>Trabalho Interdisciplinar - Documentação</title>
+  <meta name="description" content="Documentação do projeto da disciplina de Trabalho Interdisciplinar">
+  <meta name="author" content="Rommel Carneiro (WebTech)">
+
+  <!-- Stylesheet ========================= -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <!-- Document Wrapper  =============================== -->
+  <div id="main-wrapper">
+
+    <!-- Header  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button type="button" id="sidebarCollapse" class="navbar-toggler d-block d-md-none"><span></span><span
+              class="w-75"></span><span class="w-50"></span></button>
+
+          <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png"
+              alt="iDocs Template"> </a>
+          <span class="text-2 ml-2">v2.0</span>
+          <!-- Logo End -->
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Content ============================ -->
+    <main id="content">
+
+      <!-- Sidebar Navigation	============================ -->
+      <div class="idocs-navigation bg-light">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#ti_intro">Introdução</a> </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_contexto">Contexto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ti_concepcao">Concepção</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_processo_dt">Design Thinking</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_especificacoes">Especificações</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_projeto_interfaces">Projeto de Interfaces</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_metodologia">Metodologia</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_ferramentas">Ferramentas</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_gestao_projeto">Gestao do Projeto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_controle_versao">Controle de Versão</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_solucao">Solução</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#ti_video">Vídeo do Projeto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_funcionalidades">Funcionalidades</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_estruturas_dados">Estruturas de Dados</a></li>
+              <li class="nav-item"><a class="nav-link" href="#ti_modulos_apis">Módulos e APIs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#ti_faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ti_referencias">Referências</a></li>
+        </ul>
+      </div>
+
+      <!-- Docs Content ============================ -->
+      <div class="idocs-content">
+        <div class="container">
+
+          <!-- Introdução ============================ -->
+          <section id="ti_intro">
+            <h2>Introdução</h2>
+            <p class="lead">Somos uma plataforma de investimentos que visa a transparência com o cliente, sendo sempre o
+              mais claro possível.<br>
+            <section id="ti_intro_info">
+              <h4>Informações Gerais</h4>
+              <div class="row">
+                <div class="col-12">
+                  <ul class="list-unstyled">
+                    <li><strong>Projeto:</strong> InvestGO</li>
+                    <li><strong>Repositório GitHub:</strong> <a
+                        href="https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20241-investidores-master">Link
+                        para o repositório</a>
+                    </li>
+                    <li><strong>Membros da equipe:</strong>
+                      <ul>
+                        <li><a href="https://github.com/AndreHP950">André Henriques Parreiras</a></li>
+                        <li><a href="https://github.com/marvnnn">Mateus Martins Parreiras</a></li>
+                        <li><a href="https://github.com/PedroGabrielBHZ">Pedro Gabriel Amorim Soares</a></li>
+                        <li><a href="https://github.com/VitorSetragni">Vitor Leite Setragni</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Contexto ============================ -->
+          <section id="ti_contexto">
+            <h2>Contexto</h2>
+            <p class="lead">Detalhes sobre o espaço de problema, justificativas e os objetivos do projeto.</p>
+            <section>
+              <h5>Problema
+
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseProblema">
+                Nosso projeto visa sempre a transparência com o investidor, sendo útil para qualquer pessoa, mesmo que
+                ela não saiba nada sobre investimentos.
+              </div>
+              <p>Muitas corretoras de investimento são criticadas por priorizarem o lucro imediato em detrimento do
+                bem-estar financeiro dos investidores. Isso se reflete em recomendações enviadas que frequentemente
+                promovem produtos financeiros inadequados, como fundos com gestão questionável ou taxas elevadas, que
+                não se alinham com o perfil de risco e os objetivos individuais dos investidores.</p>
+            </section>
+
+            <section>
+              <h5>Objetivos
+
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseObjetivos">
+                1 - Desenvolver uma ferramenta de avaliação de perfil de investimento: <br>
+
+                Criar um sistema que permita aos usuários inserir informações detalhadas sobre sua idade, ocupação,
+                objetivos financeiros, renda e tolerância ao risco.
+                Implementar algoritmos que avaliem essas informações para gerar um perfil de investimento personalizado
+                para cada usuário. <br>
+                2 - Implementar um sistema de recomendações personalizadas:
+
+                Basear-se na avaliação do perfil do usuário para oferecer recomendações de investimento que estejam
+                alinhadas com seus objetivos financeiros e tolerância ao risco.
+                Garantir que as recomendações sejam imparciais e livres de conflitos de interesse, priorizando sempre os
+                interesses financeiros dos usuários.
+              </div>
+              <p>O objetivo do projeto é desenvolver um software para solucionar o problema da oferta de recomendações
+                de investimento enviesadas por corretoras, proporcionando aos investidores acesso a recomendações
+                imparciais e personalizadas que considerem seus objetivos financeiros, tolerância ao risco e situação
+                financeira atual.</p>
+            </section>
+
+            <section>
+              <h5>Justificativa
+
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapseJustificativa">
+                Desenvolver uma aplicação para fornecer recomendações de investimento imparciais e personalizadas é
+                essencial para proteger os investidores e otimizar a alocação de recursos financeiros. Nossa motivação
+                inclui: <br>
+
+                1 - Proteção dos Investidores:
+
+                Evitar que investidores, especialmente os menos experientes, sejam prejudicados por recomendações
+                tendenciosas.<br>
+                2 - Acesso à Informação de Qualidade:
+
+                Suprir a carência de ferramentas acessíveis que ofereçam informações e educação sobre investimentos.
+                <br>
+                3 - Promoção da Transparência:
+
+                Restabelecer a confiança dos investidores no mercado financeiro ao oferecer uma plataforma sem conflitos
+                de interesse.
+              </div>
+              <p>A falta de transparência e de orientação imparcial por parte das corretoras de investimento é um
+                problema significativo que pode levar os investidores a tomarem decisões financeiras inadequadas.
+                Corretoras frequentemente priorizam seus próprios interesses financeiros ao oferecer recomendações,
+                resultando em uma alocação de recursos ineficiente e potencialmente prejudicial aos investidores. Essa
+                prática aumenta o risco de perdas financeiras e reduz a confiança dos investidores no mercado.</p>
+            </section>
+
+            <section>
+              <h5>Público-alvo
+
+              </h5>
+              <div class="alert alert-warning collapse" role="alert" id="collapsePublico">
+                A aplicação será utilizada por uma variedade de perfis de investidores: iniciantes com pouco
+                conhecimento financeiro que buscam orientações claras e materiais educativos; investidores experientes
+                que procuram recomendações personalizadas e análises detalhadas; jovens profissionais familiarizados com
+                tecnologia e interessados em construir uma base financeira sólida; aposentados que priorizam a segurança
+                financeira e a renda passiva, e pequenos e médios empresários que desejam investir os lucros de suas
+                empresas de forma eficiente. Todos esses usuários compartilham a necessidade de uma interface intuitiva
+                e suporte adequado às suas necessidades específicas.
+              </div>
+              <p>A plataforma de investimentos destina-se a investidores de todos os níveis de experiência, incluindo
+                iniciantes que buscam orientações claras e imparciais, profissionais de diferentes idades que desejam
+                construir uma base financeira sólida ou garantir uma renda passiva, e pequenos e médios empresários que
+                procuram otimizar os retornos de seus investimentos sem comprometer a segurança financeira.</p>
+            </section>
+
+          </section>
+          <hr class="divider">
+
+          <!-- Concepção ============================ -->
+          <section id="ti_concepcao">
+            <h2>Concepção (Design Thinking)</h2>
+            <p class="lead">Detalhes do processo de discovery do projeto.
+
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseConcepcao">
+              <p>Apresente o processo de discovery do projeto. Com foco na experiência do usuário, esse processo abrange
+                a compreensão do contexto do problema e das características do usuário, a definição do problema, a
+                geração de ideias, a prototipagem e a elaboração de uma proposta de solução</p>
+            </div>
+
+            <section id="ti_processo_dt">
+              <h4>Processo de Design Thinking</h4>
+              <p>O arquivo que se segue apresenta o resultado desse processo.
+
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseProcesso">
+                <p>Apresente o processo de Design Thinking realizado pelo grupo e documentado por meio do software Miro.
+                  No documento apresentado, devem ser incluídos: (1) a matriz CSD, (2) o mapa de stakeholders, (3) as
+                  personas, (4) as respectivas propostas de valor e (5) o processo de ideação identificando as ideias
+                  levantadas e sua priorização.</p>
+              </div>
+              <object data="assets/files/miro.pdf" type="application/pdf" width="100%" height="500px">
+                <p>Não foi possível apresentar o arquivo PDF. Faça o download e abra no seu computador: <a
+                    href="/assets/files/processo-dt.pdf">Download</a></p>
+              </object>
+            </section>
+
+            <section id="ti_especificacoes">
+              <h4>Especificações do Projeto</h4>
+              <p>Documentação das especificações do projeto.
+
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseEspecificacao">
+                <p>Apresente as especificações do projeto, incluindo as histórias de usuário e os requisitos funcionais
+                  e não funcionais.</p>
+              </div>
+
+              <section>
+                <h5>Histórias de Usuários</h5>
+                <p>Com base na análise das personas foram identificadas as seguintes histórias de usuários:
+
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseHistorias">
+                  <p>Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As
+                    Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos
+                    requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário
+                    por contexto, para facilitar consultas recorrentes à essa parte do documento.</p>
+                </div>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">EU COMO...<code>PERSONA</code></th>
+                      <th scope="col">QUERO/PRECISO...<code>FUNCIONALIDADE</code></th>
+                      <th scope="col">PARA...<code>MOTIVO/VALOR</code></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Arthur</th>
+                      <td>Informações confiaveis</td>
+                      <td>Para conseguir investir por mim mesmo no futuro </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Arthur</th>
+                      <td>Local de gestão</td>
+                      <td>Para ter sobre controle os ativos que possuo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Walter</th>
+                      <td>Interface de facil uso</td>
+                      <td>Para conseguir utilizar a plataforma em ajuda </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Cristina</th>
+                      <td>Sistema de autenticação</td>
+                      <td>Para poder confiar meu dinheiro na plataforma </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Cristina</th>
+                      <td>Boas recomedações</td>
+                      <td>Para aumentar meu patrimônio </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+
+              <section>
+                <h5>Requisitos</h5>
+                <p>As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo
+                  do projeto.
+
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseRequisitos">
+                  <p>Com base nas Histórias de Usuário, enumere os requisitos da sua
+                    solução. Classifique esses requisitos em dois grupos:</p>
+                  <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Requisito_funcional">Requisitos Funcionais (RF)</a>:
+                      correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
+                    </li>
+                    <li><a href="https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional">Requisitos Não Funcionais
+                        (RNF)</a>: correspondem a uma característica técnica, seja de usabilidade, desempenho,
+                      confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).</li>
+                  </ul>
+
+                  <p>Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua
+                    solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário
+                    foram cobertos.</p>
+                </div>
+
+                <p><strong>Requisitos Funcionais</strong></p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Descrição do Requisito</th>
+                      <th scope="col">Prioridade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">RF-001</th>
+                      <td>Permitir que o usuário crie um cadastro</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-002</th>
+                      <td>Criar um perfil de investidor</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-003</th>
+                      <td>Deve ter invetimentos que se enquadram no perfil do usuario</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-004</th>
+                      <td>Ter uma pagina para ensinar sobre investimentos</td>
+                      <td>BAIXA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-005</th>
+                      <td>Atualizar a carteira do usuario automaticamente ao investir em um ativo</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-006</th>
+                      <td>O sistema deve ser imparcial com as recomendações</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RF-007</th>
+                      <td>Deve haver um canal de suporte ao usuario</td>
+                      <td>ALTA</td>
+                    </tr>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <p><strong>Requisitos Não-Funcionais</strong></p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Descrição do Requisito</th>
+                      <th scope="col">Prioridade</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">RNF-001</th>
+                      <td>Todos os dados deve ser armazenados contra acesso não autorizado</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-002</th>
+                      <td>Deve ser capaz de lidar com um aumento de numero de usuários</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-003</th>
+                      <td>O sistema deve ser estavel, com tempo de inatividade mínimos</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-004</th>
+                      <td>O sistema deve der reponsivo para rodar em multiplos dispositivos</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-005</th>
+                      <td>A interface do usuário deve ser intuitiva e de facil utilização</td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-006</th>
+                      <td>O codigo-fonte e a arquitertura da plataforma devem ser bem documentados e modularizados,
+                        facilitando a manutenção e permitindo futuras extensões e atualizações </td>
+                      <td>MÉDIA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-007</th>
+                      <td>A resposta do sistema às solicitações dos usuários deve ser rápida e eficiente</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-008</th>
+                      <td>A solução deve estar em conformidade com todas as regulamentações e leis pertinentes
+                        relacionadas à proteção de dados, segurança financeira e práticas comerciais justas</td>
+                      <td>ALTA</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">RNF-009</th>
+                      <td>O sistema deve ser capaz de integrar-se facilmente com sistemas externos</td>
+                      <td>ALTA</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </section>
+            </section>
+            <section id="ti_projeto_interfaces">
+              <h4>Projeto de Interface</h4>
+              <p>Artefatos relacionados com a interface e a interacão do usuário na proposta de solução.
+                <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse"
+                  href="#collapseInterface">Info</button>
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseInterface">
+                <p>Apresente a ideia de interface que está sendo prevista para o projeto. Inclua os wireframes, o
+                  user/screen flow e o protótipo interativo.</p>
+              </div>
+
+              <section>
+                <h5>User/Screen Flow e Protótipo interativo</h5>
+                <p>Artefatos relacionados com a interface e a interacão do usuário na solução proposta.
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse"
+                    href="#collapseUserFlow">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseUserFlow">
+                  <p>O fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de
+                    telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o
+                    usuário pode fazer junto com os membros de sua equipe. <img class="img-fluid"
+                      src="assets/images/exemplo-userflow.png" alt="Exemplo de fluxo de usuário">
+                  </p>
+                  <p>Um protótipo interativo apresenta o projeto de interfaces e permite ao usuário navegar pelas
+                    funcionalidades como se estivesse lidando com o software pronto. Veja o exemplo a seguir.<br>
+                    <iframe title="Protótipo interativo"
+                      src="https://marvelapp.com/prototype/4hd6091?emb=1&iosapp=false&frameless=false" width="600px"
+                      height="360px" allowtransparency="true" frameborder="0"></iframe>
+                  </p>
+                </div>
+                <p>...... COLOQUE AQUI O DIAGRAMA DE USER FLOW E O LINK PARA O PROTÓTIPO INTERATIVO ......</p>
+              </section>
+
+              <section>
+                <h5>Wireframes</h5>
+                <p>Protótipo de telas do sistema em baixa fidelidade (rascunhos).
+                  <button type="button" class="btn btn-light btn-sm float-right" data-toggle="collapse"
+                    href="#collapseWireframes">Info</button>
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseWireframes">
+                  <p>Os Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
+                    estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração
+                    semelhante ao layout de elementos fundamentais na interface. <img class="img-fluid"
+                      src="assets/images/exemplo-wireframe.png" alt="Exemplo de wireframe"></p>
+                </div>
+                <p>...... COLOQUE AQUI OS PROTÓTIPO DE TELAS E SUA DESCRIÇÃO ......</p>
+              </section>
+
+            </section>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Metodologia ============================ -->
+          <section id="ti_metodologia">
+            <h2>Metodologia</h2>
+            <p class="lead">Detalhes sobre a organização do grupo e o ferramental empregado.
+            </p>
+            <div class="alert alert-warning collapse" role="alert" id="collapseMetodologia">
+              <p>Nesta parte do documento, você deve apresentar a metodologia adotada pelo grupo, descrevendo o processo
+                de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e
+                como foi realizada agestão de configuração do projeto via GitHub.</p>
+              <p>Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo
+                grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a
+                execução das tarefas e o status de desenvolvimento da solução.</p>
+            </div>
+
+            <section>
+              <h4 id="ti_ferramentas">Ferramentas</h4>
+              <p>Relação de ferramentas empregadas pelo grupo durante o projeto.
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseFerramentas">
+                <p>Liste as ferramentas empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre
+                  que possível. Inclua itens como: (1) Editor de código, ferramentas de comunicação, ferramentas de
+                  diagramação, plataformas de hospedagem, entre outras.</p>
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Ambiente</th>
+                    <th scope="col">Plataforma</th>
+                    <th scope="col">Link de Acesso</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Processo de Design Thinking</td>
+                    <td>Miro</td>
+                    <td><a href="https://miro.com/app/board/uXjVKZvY0Bg=/">https://miro.com/app/board</a>
+                  </tr>
+                  <tr>
+                    <td>Repositório de código</td>
+                    <td>GitHub</td>
+                    <td><a
+                        href="https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20241-investidores-master/tree/master/codigo/pages">https://github.com/codigo</a>
+                  </tr>
+                  <tr>
+                    <td>Hospedagem do site</td>
+                    <td>GitHub</td>
+                    <td><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/index.html">https://github.com/site</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Protótipo Interativo</td>
+                    <td>MavelApp ou Figma</td>
+                    <td><a
+                        href="https://www.figma.com/design/Js5PIdqMPsB4M5wPiv0eYr/Tela-de-Login?node-id=0-1">https://figma.com/design</a>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <section id="ti_gestao_projeto">
+              <h4>Gestão do Projeto</h4>
+              <p>Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
+
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapsePapeis">
+                <p>Apresente a divisão de papéis e tarefas entre os membros do grupo. Informe quem é o Scrum Master, o
+                  Product Owner e os desenvolvedores. Informe também quem é o responsável pela documentação do projeto.
+                </p>
+                <p>Apresente o quadro de gerenciamento do time (Kanban), seu formato e as experiências na utilização
+                  dessa ferramenta (GitHub Projects) </p>
+              </div>
+              <p>Scrum Master: Pedro Gabriel Amorim Soares</p>
+              <p>Product owner: André Henriques Parreiras</p>
+              <p>Desenvolvedores: André Henriques, Mateus Martins, Pedro Gabriel Amorim, Vitor Leite</p>
+              <p>Documentações: Mateus Martins Parreiras e Vitor Leite Setragni</p>
+            </section>
+
+
+            <section id="ti_controle_versao">
+              <h4>Controle de Versão</h4>
+              <p>Estrutura do fluxo de trabalho no ambiente do GitHub.
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseVersao">
+                <p>Discuta como a configuração do projeto foi feita na ferramenta de versionamento (GitHub). Exponha
+                  como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi
+                  realizada.<br>
+                  <img class="img-fluid" src="assets/images/exemplo-workflow.png" alt="">
+                </p>
+              </div>
+              <h5>Estrutura do Repositório</h5>
+              <p>O repositório do InvestGO no GitHub segue uma estrutura padrão:</p>
+              <ul>
+                <li>Pasta raiz: Contém arquivos como README.md, LICENSE, CITATION .gitignore.</li>
+                <li>Pasta codigo: Abriga o código-fonte principal do projeto, organizado em subpastas para diferentes
+                  funcionalidades.</li>
+                <li>Pasta bootstrap: Armazena arquivos de estilo e outros recursos estáticos.</li>
+                <li>Pasta pages: Contém todas as páginas html do projeto.</li>
+                <li>Pasta docs: Apresenta a documentação completa do projeto.</li>
+                <li>Pasta templates: Apresenta templates e oritentações de TIAW.</li>
+              </ul>
+
+              <h5>Fluxo de Trabalho</h5>
+              <p>O fluxo de trabalho do InvestGO no GitHub utiliza apenas a branch `master` para o
+                desenvolvimento. As alterações no código são feitas diretamente na branch após revisão e testes com
+                todos os desenvolvedores.</p>
+
+              <h5>Gerenciamento de Tags, Merges e Commits</h5>
+              <p>No desenvolvimento do projeto, utilizamos o trello para definir as tarefas e commits a serem
+                feitos, dessa forma, não foi necessário utilizar tags diretamente nas tarefas do github, pois elas
+                foram atribuídas no quadro Kanban. Os merges entre diferentes versões da aplicação foi feito de acordo
+                com a necessidade
+                e organização dos desenvolvedores.
+              </p>
+
+              <h5>Gerenciamento de Issues</h5>
+              <p>As issues são cadastradas no Trello e vinculadas a tarefas no Trello, facilitando a comunicação e o
+                acompanhamento do progresso entre todos da equipe de desenvolvimento.</p>
+
+              <h5>Comunicação e Colaboração</h5>
+              <p>O WhatsApp é utilizado para comunicação informal entre os membros da equipe, enquanto o GitHub e o
+                Trello são utilizados para comunicação oficial relacionada ao código e tarefas do projeto.</p>
+            </section>
+            <hr class="divider">
+
+            <!-- Funcionalidades ==================== -->
+            <section id="ti_solucao">
+              <h2>Solução</h2>
+              <p class="lead">Esta seção apresenta todos os detalhes da solução criada no projeto.
+
+              </p>
+              <div class="alert alert-warning collapse" role="alert" id="collapseSolucao">
+                <p>Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos
+                  administradores da solução.</p>
+                <p>Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2)
+                  Estrutura
+                  de dados associada; (3) o detalhe sobre as instruções de acesso e uso.</p>
+              </div>
+
+              <section id="ti_video">
+                <h4>Video do Projeto</h4>
+                <p>O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de
+                  solução.
+
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseVideo">
+                  <p>O video de apresentação é voltado para que o público externo possa conhecer a solução. O formato é
+                    livre, sendo importante que seja apresentado o problema e a solução numa linguagem descomplicada e
+                    direta.</p>
+                  <p>Utilize o recurso de compartilhamento via embed e inclua o vídeo logo abaixo.</p>
+                </div>
+                <p>...... COLOQUE AQUI O SEU VIDEO ......</p>
+              </section>
+
+              <section id="ti_funcionalidades">
+                <h4>Funcionalidades</h4>
+                <p>Esta seção apresenta as funcionalidades da solução.
+
+                </p>
+                <div class="alert alert-warning collapse" role="alert" id="collapseFuncionalidades">
+                  <p>Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos
+                    administradores da solução.</p>
+                  <p>Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2)
+                    Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.</p>
+                </div>
+
+                <section>
+                  <h5>Funcionalidade 1 - Cadastro e Login</h5>
+                  <p>Permite o cadastro e o login do usuário.</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/cadastro.html">Cadastro/Login</a>
+                    </li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o cadastro</li>
+                        <li>Acesse a aba de login e efetue o login</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/3.webp" alt="Tela Cadastro"></p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 2 - Adicionar fundos para o software</h5>
+                  <p>Permite que o usuário adicione fundos para investir.</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/landing.html">Adicionar
+                        fundos</a></li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba home, digite a quantidade que deseja e clique em adicionar</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/abc.png" alt="Adicionar fundos"></p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 3 - Utilizar fundos para investir</h5>
+                  <p>Permite que o usuário utilize seus fundos para comprar ativos.</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/produtos.html">Utilizar
+                        fundos</a></li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba produtos, e selecione os ativos que voce deseja comprar</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/image.png" alt="Utiliziar fundos">
+                  </p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 4 - Mostrar total investido</h5>
+                  <p>Permite que o usuário verifique quanto de dinheiro ele tem investido</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/landing.html">Verificar
+                        fundos</a></li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba home</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/image2.png"
+                      alt="Verificar quantidade investida"></p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 5 - Questionario de perfil de investidor</h5>
+                  <p>Permite que o usuário saiba que tipo de investidor ele é</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/teste_perfil_investidor.html">Perfil
+                        de investidor</a></li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba home e clique em alterar perfil</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/image3.png"
+                      alt="Quiz perfil investidor"></p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 6 - Comprar ativos baseados no seu perfil de investidor</h5>
+                  <p>Remove a possibilidade do usuário comprar um ativo fora do seu perfil</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/produtos.html">Comprar
+                        ativos</a></li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba home e clique em alterar perfil</li>
+                        <li>Acesse a aba produtos</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/image4.png"
+                      alt="Comprar somente os ativos que se adequam ao seu perfil de investidor"></p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 7 - Filtrar tipos de investimento</h5>
+                  <p>Permite que o usuário filtre qual tipo de investimento ele quer ver</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/produtos.html">Filtro</a>
+                    </li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba home e clique em alterar perfil</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/image6.png"
+                      alt="Filtrar tipos de investimento"></p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 8 - Fórum de conversa</h5>
+                  <p>Permite que o usuário comente e faça publicações dentro do fórum</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/forum.html">Fórum</a>
+                    </li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba fórum</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/image5.png" alt="Publicar duvidas">
+                  </p>
+                </section>
+                <section>
+                  <h5>Funcionalidade 9 - Atualização automática da sua carteira com os ativos adquiridos</h5>
+                  <p>Permite que o usuário verifique quais ativos ele comprou, mostrando preço e quantidade</p>
+                  <ul class="list-unstyled">
+                    <li><strong>Estrutura de dados: </strong><a
+                        href="https://icei-puc-minas-pmgcc-ti.github.io/ti-1-pmg-cc-t-20241-investidores-master/codigo/pages/meus_investimentos.html">Meus
+                        investimentos</a></li>
+                    <li><strong>Instruções de acesso: </strong>
+                      <ul>
+                        <li>Abra o site e efetue o login</li>
+                        <li>Acesse a aba meus investimentos</li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <p class="text-center"><img class="img-fluid" src="assets/images/image7.png"
+                      alt="Verificar investimentos"></p>
+                </section>
+              </section>
+
+              <!-- Estruturas de dados =============== -->
+              <section id="ti_estruturas_dados">
+                <h4>Estruturas de Dados</h4>
+                <p>Descrição das estruturas de dados utilizadas na solução com exemplos no formato JSON.
+        </div>
+
+        <section>
+          <h5>Produtos de investimento</h5>
+          <p>Produtos</p>
+          <pre>
+                  [
+                  {
+                    name: "CDB Banco Figma",
+                    risk: "Alto",
+                    minimumInvestment: 1000,
+                    return: 10,
+                    maturity: "2023-12-31",
+                  },
+                  {
+                    name: "LCI Banco Delta",
+                    risk: "Moderado",
+                    minimumInvestment: 500,
+                    return: 5,
+                    maturity: "2022-12-31",
+                  },
+                ...] 
+                </pre>
+        </section>
+
+        <section>
+          <h5>Usuários</h5>
+          <p>Registro dos usuários do sistema utilizados para login e para o perfil do sistema</p>
+          <pre>
+[
+  {
+    "nome": "pedro",
+    "surname": "soares",
+    "email": "email@gmail.com",
+    "phone": "12412512512",
+    "cpf": "332124515125",
+    "login": "pgbhz",
+    "password": "123",
+    "funds": 5423400,
+    "investorProfile": "defensive",
+    "investments": [
+      {
+        "name": "Tesouro Selic",
+        "risk": "Baixo",
+        "amount": 100
+      },
+      {
+        "name": "LCI Banco Ômega",
+        "risk": "Baixo",
+        "amount": 300
+      }
+    ]
+  },
+...
+]
+                </pre>
+        </section>
+        <section>
+          <h5>Posts do forum</h5>
+          <p>Posts efetuados no forum</p>
+          <pre>
+                  [
+                    {
+                      "title": "Investimento seguro?",
+                      "author": "pedro",
+                      "date": "6/29/2024, 5:10:59 PM",
+                      "content": "Estou em dúvida se debêntures das casas bahia são seguras...",
+                      "comments": [
+                          {
+                            "author": "pedro",
+                            "date": "6/29/2024, 5:11:07 PM",
+                            "content": "Alguém pode me ajudar?"
+                          }
+                                     ]
+                    }
+                  ]
+                </pre>
+        </section>
+        <section>
+          <h5>Perfil de investidor</h5>
+          <p>Questionario para entendermos melhor quem são nossos clientes.</p>
+          <pre>
+                  {
+                    "question-1": "Quero enriquecer o mais rápido possível.",
+                    "question-2": "Preservar meu patrimônio contra inflação.",
+                    "question-3": "Aumentar meu patrimônio assumindo riscos calculados."
+                  }
+                </pre>
+        </section>
+        </section>
+
+        <!-- Módulos e APIs ================= -->
+        <section id="ti_modulos_apis">
+          <h4>Módulos e APIs</h4>
+          <p>Esta seção apresenta os módulos e APIs utilizados na solução.
+          <section>
+            <h5>Images:</h5>
+            <ul>
+              <li>Freepik - <a target="_blank"
+                  href="https://www.freepik.com/vectors/investment-illustration">https://www.freepik.com/vectors/investment-illustration/</a>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h5>Scripts:</h5>
+            <ul>
+              <li>jQuery - Utilizado indideramente pela biblioteca do bootstrap.
+              <li>Bootstrap 4 - <a target="_blank"
+                  href="https://getbootstrap.com/docs/5.3/getting-started/contents/#js-files">https://getbootstrap.com/docs/5.3/getting-started/contents/#js-files</a><span
+                  </ul>
+          </section>
+        </section>
+
+        </section>
+        <hr class="divider">
+
+        <!-- FAQ ============================ -->
+        <section id="ti_faq">
+          <h2>FAQ</h2>
+          <p class="lead">Perguntas e respostas comuns associadas ao projeto.
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="accordion accordion-alterate arrow-right" id="popularTopics">
+                <div class="card">
+                  <div class="card-header" id="heading1">
+                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse1"
+                        aria-expanded="false" aria-controls="collapse1">Como posso criar uma conta na InvestGO?</a>
+                    </h5>
+                  </div>
+                  <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#popularTopics">
+                    <div class="card-body">Para criar uma conta em nossa corretora, o processo é simples e direto.
+                      Primeiramente, você realizará o cadastro em nosso site. Em seguida, basta fazer o login e
+                      responder a um questionário que nos ajudará a entender melhor o seu perfil de investidor. Este
+                      passo é importante para oferecermos recomendações e serviços personalizados que atendam às suas
+                      necessidades financeiras.</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="heading2">
+                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse2"
+                        aria-expanded="false" aria-controls="collapse2">Para criar uma conta na InvestGO é preciso
+                        baixar algum aplicativo?</a> </h5>
+                  </div>
+                  <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#popularTopics">
+                    <div class="card-body">Para criar uma conta em nossa corretora, não é necessário baixar nenhum
+                      aplicativo, pois nossa corretora é totalmente online.</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="heading3">
+                    <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse3"
+                        aria-expanded="false" aria-controls="collapse3">O site terá algum outro recurso
+                        futuramente?</a> </h5>
+                  </div>
+                  <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#popularTopics">
+                    <div class="card-body">Sim, estamos trabalhando para implementar um banco de dados mais robusto,
+                      gráficos detalhados de retorno de investimentos e funcionalidades como os modos escuro e claro da
+                      interface. Essas atualizações visam melhorar significativamente a experiência do usuário e
+                      proporcionar mais opções e informações úteis para nossos investidores.</div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading4">
+                      <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse4"
+                          aria-expanded="false" aria-controls="collapse4">Como vocês ficam por dentro do mercado
+                          financeiro em tempo real?</a> </h5>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#popularTopics">
+                      <div class="card-body">Nosso software está capacitado para ler e exibir dados do mercado
+                        financeiro em tempo real diretamente em nosso site.</div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="heading5">
+                        <h5 class="mb-0"> <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapse5"
+                            aria-expanded="false" aria-controls="collapse5">Como eu posso saber se meus dados estão
+                            seguros?</a> </h5>
+                      </div>
+                      <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#popularTopics">
+                        <div class="card-body">Na equipe InvestGO, utilizamos criptografia avançada para garantir a
+                          segurança e a confidencialidade dos dados de nossos clientes.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <hr class="divider">
+
+        <!-- Referências Bibliográficas ================= -->
+        <section id="ti_referencias">
+          <h2>Referências Bibliográficas</h2>
+          <p class="lead">Esta seção apresenta as referências bibliográficas utilizadas no projeto.
+
+          <p>
+            ● Bodie, Z., Kane, A., & Marcus, A. J. (2018). Investments. McGraw-Hill Education. ● Malkiel, B. G. (2015).
+            A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing. W. W. Norton & Company.
+            <br>
+
+            ● Taleb, N. N. (2007). The Black Swan: The Impact of the Highly Improbable. Random House Trade Paperbacks.
+            <br>
+
+            ● Reilly, F. K., & Brown, K. C. (2018). Investment Analysis and Portfolio Management. Cengage Learning. <br>
+
+            ● Graham, B., & Zweig, J. (2006). The Intelligent Investor: The Definitive Book on Value Investing.
+            HarperBusiness. <br>
+
+            ● Bernstein, W. J. (2014). The Four Pillars of Investing: Lessons for Building a Winning Portfolio.
+            McGraw-Hill Education. <br>
+
+            ● Hull, J. C. (2017). Options, Futures, and Other Derivatives. Pearson Education. <br>
+
+            ● Swensen, D. F. (2017). Pioneering Portfolio Management: An Unconventional Approach to Institutional
+            Investment. Free Press. <br>
+
+            ● Damodaran, A. (2012). Investment Valuation: Tools and Techniques for Determining the Value of any Asset.
+            Wiley. <br>
+
+            ● O'Reilly, T. (2005). What Is Web 2.0: Design Patterns and Business Models for the Next Generation of
+            Software. O'Reilly Media.
+          </p>
+        </section>
+
+      </div>
+  </div>
+  <!-- Content end -->
+  </main>
+
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <p class="text-center"><strong>Trabalho Interdisciplinar - ICEI PUC Minas</strong><br>Modelo adaptado de <a
+          href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">iDocs</a> - Design &amp;
+        Develop by <a class="btn-link" target="_blank" href="http://www.harnishdesign.net/">HarnishDesign</a></p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Document Wrapper end -->
+  </div>
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Topo" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript ============================ -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
