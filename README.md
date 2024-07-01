@@ -7,7 +7,6 @@ Diante desse cenário desafiador, há uma clara necessidade de soluções que ap
 ## Alunos integrantes da equipe
 
 * André Henriques Parreiras
-* Luiz Felipe Rodrigues Duarte
 * Mateus Martins Parreiras
 * Pedro Gabriel Amorim Soares
 * Vitor Leite Setragni
